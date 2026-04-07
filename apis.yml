@@ -9,8 +9,8 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Fraud Prevention
   - AML Compliance
+  - Fraud Prevention
   - Identity Verification
   - Risk Scoring
 url: >-
@@ -29,8 +29,8 @@ apis:
     humanURL: https://docs.seon.io/api-reference/fraud-api
     tags:
       - Fraud Detection
-      - Risk Scoring
       - Identity
+      - Risk Scoring
     properties:
       - type: Documentation
         url: https://docs.seon.io/api-reference
@@ -60,9 +60,9 @@ apis:
       and verify user identity.
     humanURL: https://docs.seon.io/api-reference
     tags:
-      - Phone
       - Enrichment
       - Fraud Prevention
+      - Phone
     properties:
       - type: Documentation
         url: https://docs.seon.io/api-reference
