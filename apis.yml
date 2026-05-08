@@ -38,6 +38,8 @@ apis:
         url: https://docs.seon.io/getting-started
       - type: Authentication
         url: https://docs.seon.io/api-reference/introduction
+      - type: OpenAPI
+        url: openapi/seon-docs-openapi.yml
   - aid: seon-docs:email-api
     name: SEON Email API
     description: >-
