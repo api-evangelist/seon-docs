@@ -77,6 +77,11 @@ common:
     url: https://docs.seon.io/getting-started
   - type: Website
     url: https://seon.io/
+  - type: Integrations
+    url: https://seon.io/partners/
+integrations:
+  - name: Shopify
+  - name: AWS
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
