@@ -34,7 +34,7 @@ apis:
     properties:
       - type: Documentation
         url: https://docs.seon.io/api-reference
-      - type: Getting Started
+      - type: GettingStarted
         url: https://docs.seon.io/getting-started
       - type: Authentication
         url: https://docs.seon.io/api-reference/introduction
@@ -73,7 +73,7 @@ common:
     url: https://docs.seon.io/
   - type: Documentation
     url: https://docs.seon.io/api-reference
-  - type: Getting Started
+  - type: GettingStarted
     url: https://docs.seon.io/getting-started
   - type: Website
     url: https://seon.io/
