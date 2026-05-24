@@ -84,6 +84,8 @@ common:
     url: https://seon.io/
   - type: Integrations
     url: https://seon.io/partners/
+  - type: LLMsTxt
+    url: https://docs.seon.io/llms.txt
 integrations:
   - name: Shopify
   - name: AWS
