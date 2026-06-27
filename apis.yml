@@ -77,7 +77,7 @@ common:
     url: https://seon.io/
   - type: Integrations
     url: https://seon.io/partners/
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://docs.seon.io/llms.txt
 integrations:
   - name: Shopify
