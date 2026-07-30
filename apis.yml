@@ -5,7 +5,20 @@ description: >-
   identity verification, email enrichment, phone analysis, IP analysis, device fingerprinting, and AML screening. The
   platform enables businesses to combine multiple fraud signals to score risk and prevent fraudulent transactions.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: self-serve
+  trial: false
+  try_now: true
+  public: false
+  label: Freemium · Self-serve signup
+  confidence: high
+  source:
+  - plans
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seon-docs.png
 tags:
   - AML Compliance
   - Fraud Prevention
@@ -16,52 +29,122 @@ created: '2026-03-16'
 modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
-  - aid: seon-docs:fraud-api
-    name: SEON Fraud API
-    description: >-
-      The SEON Fraud API is a modular API that combines email, phone number, IP, BIN, and AML APIs with device
-      fingerprinting so you can request and receive enriched data, rules, and scoring in a single API call to detect and
-      prevent fraud.
-    humanURL: https://docs.seon.io/api-reference/fraud-api
-    tags:
-      - Fraud Detection
-      - Identity
-      - Risk Scoring
-    properties:
-      - type: Documentation
-        url: https://docs.seon.io/api-reference
-      - type: GettingStarted
-        url: https://docs.seon.io/getting-started
-      - type: Authentication
-        url: https://docs.seon.io/api-reference/introduction
-      - type: OpenAPI
-        url: openapi/seon-docs-openapi.yml
-  - aid: seon-docs:email-api
-    name: SEON Email API
-    description: >-
-      The SEON Email API is a standalone email enrichment tool that helps identify the approximate minimum age of an
-      email address, its provider, and any connected online profiles.
-    humanURL: https://docs.seon.io/api-reference
-    tags:
-      - Email
-      - Enrichment
-      - Fraud Prevention
-    properties:
-      - type: Documentation
-        url: https://docs.seon.io/api-reference
-  - aid: seon-docs:phone-api
-    name: SEON Phone API
-    description: >-
-      The SEON Phone API unlocks insights into a user's phone number history and social or digital profiles connected to
-      it, helping detect fraud and verify user identity.
-    humanURL: https://docs.seon.io/api-reference
-    tags:
-      - Enrichment
-      - Fraud Prevention
-      - Phone
-    properties:
-      - type: Documentation
-        url: https://docs.seon.io/api-reference
+- aid: seon-docs:email-api
+  name: SEON Email API
+  description: >-
+    The SEON Email API is a standalone email enrichment tool that helps identify the approximate minimum
+    age of an email address, its provider, and any connected online profiles.
+  humanURL: https://docs.seon.io/api-reference
+  tags:
+  - Email
+  - Enrichment
+  - Fraud Prevention
+  properties:
+  - type: Documentation
+    url: https://docs.seon.io/api-reference
+- aid: seon-docs:phone-api
+  name: SEON Phone API
+  description: >-
+    The SEON Phone API unlocks insights into a user's phone number history and social or digital profiles
+    connected to it, helping detect fraud and verify user identity.
+  humanURL: https://docs.seon.io/api-reference
+  tags:
+  - Enrichment
+  - Fraud Prevention
+  - Phone
+  properties:
+  - type: Documentation
+    url: https://docs.seon.io/api-reference
+- aid: seon-docs:seon-docs-aml-api
+  name: SEON AML API
+  description: The AML API from SEON — 1 operation(s) for aml.
+  humanURL: https://docs.seon.io/api-reference/fraud-api
+  tags:
+  - AML
+  properties:
+  - type: OpenAPI
+    url: openapi/seon-docs-aml-api-openapi.yml
+  - type: Documentation
+    url: https://docs.seon.io/api-reference
+  - type: GettingStarted
+    url: https://docs.seon.io/getting-started
+  - type: Authentication
+    url: https://docs.seon.io/api-reference/introduction
+- aid: seon-docs:seon-docs-bin-api
+  name: SEON BIN API
+  description: The BIN API from SEON — 1 operation(s) for bin.
+  humanURL: https://docs.seon.io/api-reference/fraud-api
+  tags:
+  - BIN
+  properties:
+  - type: OpenAPI
+    url: openapi/seon-docs-bin-api-openapi.yml
+  - type: Documentation
+    url: https://docs.seon.io/api-reference
+  - type: GettingStarted
+    url: https://docs.seon.io/getting-started
+  - type: Authentication
+    url: https://docs.seon.io/api-reference/introduction
+- aid: seon-docs:seon-docs-email-api
+  name: SEON Email API
+  description: The Email API from SEON — 1 operation(s) for email.
+  humanURL: https://docs.seon.io/api-reference/fraud-api
+  tags:
+  - Email
+  properties:
+  - type: OpenAPI
+    url: openapi/seon-docs-email-api-openapi.yml
+  - type: Documentation
+    url: https://docs.seon.io/api-reference
+  - type: GettingStarted
+    url: https://docs.seon.io/getting-started
+  - type: Authentication
+    url: https://docs.seon.io/api-reference/introduction
+- aid: seon-docs:seon-docs-fraud-api
+  name: SEON Fraud API
+  description: The Fraud API from SEON — 1 operation(s) for fraud.
+  humanURL: https://docs.seon.io/api-reference/fraud-api
+  tags:
+  - Fraud
+  properties:
+  - type: OpenAPI
+    url: openapi/seon-docs-fraud-api-openapi.yml
+  - type: Documentation
+    url: https://docs.seon.io/api-reference
+  - type: GettingStarted
+    url: https://docs.seon.io/getting-started
+  - type: Authentication
+    url: https://docs.seon.io/api-reference/introduction
+- aid: seon-docs:seon-docs-ip-api
+  name: SEON IP API
+  description: The IP API from SEON — 1 operation(s) for ip.
+  humanURL: https://docs.seon.io/api-reference/fraud-api
+  tags:
+  - IP
+  properties:
+  - type: OpenAPI
+    url: openapi/seon-docs-ip-api-openapi.yml
+  - type: Documentation
+    url: https://docs.seon.io/api-reference
+  - type: GettingStarted
+    url: https://docs.seon.io/getting-started
+  - type: Authentication
+    url: https://docs.seon.io/api-reference/introduction
+- aid: seon-docs:seon-docs-phone-api
+  name: SEON Phone API
+  description: The Phone API from SEON — 1 operation(s) for phone.
+  humanURL: https://docs.seon.io/api-reference/fraud-api
+  tags:
+  - Phone
+  properties:
+  - type: OpenAPI
+    url: openapi/seon-docs-phone-api-openapi.yml
+  - type: Documentation
+    url: https://docs.seon.io/api-reference
+  - type: GettingStarted
+    url: https://docs.seon.io/getting-started
+  - type: Authentication
+    url: https://docs.seon.io/api-reference/introduction
 common:
   - type: AgenticAccess
     url: agentic-access/seon-docs-agentic-access.yml
